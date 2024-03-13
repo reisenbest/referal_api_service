@@ -14,7 +14,7 @@ username = 'admin' email = 'admin@admin.com' password = 'admin'
 для тестов можно регитрировать новых пользователей /api/registeruser/ для получения jwt токена - /api/v1/token/
 
 Описание: 
-Проект реализован на django, django-restframework
+Проект реализован на django, django-restframework, postgres
 
 Реализована: 
 
