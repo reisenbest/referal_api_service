@@ -25,7 +25,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 urlpatterns = [
 
 
-    path('api/', include('service.urls')),  # Замените 'yourapp' на имя вашего приложения
+    path('api/', include('service.urls')),  
 
     # drf-spectacular
     path('schema/', SpectacularAPIView.as_view(), name='schema'),
